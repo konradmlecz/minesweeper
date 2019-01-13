@@ -145,6 +145,7 @@ class Game {
 
     } else {
       div.innerHTML = `<p>${this.storage.boxes[i].neighbor}</p>`;
+      div.className = `empty`
       this.clickedDiv.appendChild(div);
       this.hittedBox--;
       this.result.showNumerAreaDefuse(this.hittedBox);
