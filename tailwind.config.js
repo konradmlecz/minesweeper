@@ -6,6 +6,9 @@ module.exports = {
         container: {
             center: true,
         },
+        zIndex: {
+            'minus': -10,
+        }
     },
     variants: {
         extend: {},
