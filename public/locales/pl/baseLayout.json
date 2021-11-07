@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "title": "MinesWeeper.js",
+    "button": {
+      "contact": "Kontakt",
+      "about": "O projekcie",
+      "game": "Gra"
+    }
+  },
+  "footer": {
+    "title": "Zrealizowane KM"
+  }
+}

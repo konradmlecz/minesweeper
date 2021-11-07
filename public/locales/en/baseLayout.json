@@ -1,7 +1,13 @@
 {
-  "navHome": "MinesWeeper.js",
-  "navContact": "Contact us",
-  "navAbout": "About",
-  "navGame": "Game",
-  "footerMainText": "All rights reserved KM"
+     "nav": {
+       "title": "MinesWeeper.js",
+       "button": {
+         "contact": "Contact us",
+         "about": "About",
+         "game": "Game"
+       }
+     },
+  "footer": {
+    "title": "Realized KM"
+  }
 }

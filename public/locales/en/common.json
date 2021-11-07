@@ -1,4 +1,6 @@
 {
-  "title": "MinesWeeper",
-  "description": "MinesWeeper game"
+  "head": {
+    "title": "MinesWeeper",
+    "description": "MinesWeeper game realized in JS"
+  }
 }

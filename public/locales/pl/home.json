@@ -1,0 +1,9 @@
+{
+  "main": {
+    "title": "Pamiętasz grę sapera?",
+    "description": "Jest to kultowa gra ze starych wersji Windowsa",
+    "button": {
+      "play":"Graj"
+    }
+  }
+}

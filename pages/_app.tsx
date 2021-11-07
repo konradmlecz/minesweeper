@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import 'tailwindcss/tailwind.css'
 import type {AppProps} from 'next/app'
 import Head from 'next/head';
+import nextI18NextConfig from '../next-i18next.config'
 import {appWithTranslation, useTranslation} from 'next-i18next';
 
 function MyApp({Component, pageProps}: AppProps) {
@@ -9,14 +10,14 @@ function MyApp({Component, pageProps}: AppProps) {
     return (
         <>
             <Head>
-                <title>{t('title')}</title>
+                <title>{t('head.title')}</title>
                 <meta
                     name="description"
-                    content={t('description')}/>
+                    content={t('head.description')}/>
             </Head>
             <Component {...pageProps} />
         </>
     )
 }
 
-export default appWithTranslation(MyApp)
+export default appWithTranslation(MyApp,nextI18NextConfig)
