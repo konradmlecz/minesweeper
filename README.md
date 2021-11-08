@@ -1,6 +1,7 @@
 # Minesweeper
 
  It's simple game known in WIN98 and other. You must try clean area without any mistake.
+ Online project: https://minesweeper-omega.vercel.app
 
 # Apps works
 
@@ -15,6 +16,8 @@
 - React
 - Tailwindcss
 - TypeScript
+
+
 
 
 
