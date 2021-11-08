@@ -1,5 +1,5 @@
 import React from "react"
-import { useTranslation } from 'next-i18next'
+import {useTranslation} from 'next-i18next'
 import Link from 'next/link';
 
 interface LayoutProps {
@@ -18,7 +18,7 @@ function TopNavigation() {
                 </div>
                 <div
                     className={'rounded-xl pr-2 pl-2 text-white hover:text-blue-500 bg-blue-500 hover:bg-white leading-6 transition duration-500 ease-in-out'}>
-                    <Link href={"/"}>
+                    <Link href={"/game"}>
                         {t('nav.button.game')}
                     </Link>
                 </div>

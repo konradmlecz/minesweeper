@@ -1,0 +1,10 @@
+{
+  "info": {
+    "command1": "Do rozbrojenia zostało {{numberOfNotDisplayedFields}} pól",
+    "command2": "Przegrałeś!",
+    "command3": "Wygrałeś!"
+  },
+  "control": {
+    "button": "Nowa gra"
+  }
+}

@@ -3,6 +3,7 @@ import {useTranslation} from 'next-i18next';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {ReactSVG} from 'react-svg'
 import BaseLayout from "components/BaseLayout";
+import Link from 'next/link';
 
 export const getStaticProps = async ({locale}: { locale: string }) => ({
     props: {
@@ -18,11 +19,13 @@ const Home: NextPage = () => {
                 <div
                     className={"relative flex flex-col justify-center items-start bg-white rounded-2xl shadow-md m-2 sm:m-0"}>
                     <div
-                        className={"absolute w-full h-full bg-blue-500 rounded-3xl z-minus  transform sm:rotate-3 sm:scale-110 shadow-md"}></div>
+                        className={"absolute w-full h-full bg-blue-500 rounded-3xl z-minus  transform sm:rotate-3 sm:scale-110 shadow-md"}/>
                     <h1 className={'p-2 sm:p-4 text-lg sm:text-2xl '}> {t('main.title')}</h1>
                     <p className={'pt-2 pl-2 pr-2 sm:pt-4 sm:pl-4 sm:pr-4 pb-2 sm:text-base'}>{t('main.description')}</p>
+                    <Link href={"/game"} passHref>
                     <button
-                        className=" self-center text-base sm:text-xl text-white m-4 px-4 py-2 bg-red-500 border-b-2 rounded-full hover:text-red-500 hover:bg-white transition duration-500 ease-in-out">{t('main.button.play')}</button>
+                        className=" self-center text-base sm:text-xl text-white m-4 px-4 py-2 bg-red-500 border-b-2 rounded-full hover:text-red-500 hover:bg-white transition duration-500 ease-in-out" >{t('main.button.play')}</button>
+                    </Link>
                 </div>
                 <div className={'self-end pt-6,'}>
                     <ReactSVG src="./images/bomb-154456.svg" beforeInjection={(svg) => {

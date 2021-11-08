@@ -4,6 +4,7 @@ import type {AppProps} from 'next/app'
 import Head from 'next/head';
 import nextI18NextConfig from '../next-i18next.config'
 import {appWithTranslation, useTranslation} from 'next-i18next';
+import {GameProvider} from "store/contextGame";
 
 function MyApp({Component, pageProps}: AppProps) {
     const {t} = useTranslation('common');
@@ -15,7 +16,9 @@ function MyApp({Component, pageProps}: AppProps) {
                     name="description"
                     content={t('head.description')}/>
             </Head>
+            <GameProvider>
             <Component {...pageProps} />
+            </GameProvider>
         </>
     )
 }

@@ -1,0 +1,10 @@
+{
+  "info": {
+    "command1": "To defuse remain {{numberOfNotDisplayedFields}} items",
+    "command2": "You Lose",
+    "command3": "You Win"
+    },
+  "control": {
+    "button": "New Game"
+  }
+}

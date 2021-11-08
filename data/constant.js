@@ -1,0 +1,10 @@
+export const NUMBER_OF_FIELDS = 100;
+export const NUMBER_OF_NOT_DISPLAYED_FIELDS = 80;
+export const NUMBER_OF_NOT_DISPLAYED_FIELDS_WHEN_YOU_WIN = 0;
+
+export const ACTIONS = {
+    START:'START',
+    UPDATE:'UPDATE',
+    LOST:'LOST',
+    WIN:'WIN',
+}
