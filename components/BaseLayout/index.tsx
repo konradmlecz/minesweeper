@@ -23,12 +23,12 @@ function TopNavigation() {
                     </Link>
                 </div>
                 <div className="pr-4 pl-4 hover:text-blue-500 leading-6 transition duration-500 ease-in-out">
-                    <Link href={"/"}>
+                    <Link href={"/about"}>
                         {t('nav.button.about')}
                     </Link>
                 </div>
                 <div className="hover:text-blue-500 leading-6 transition duration-500 ease-in-out">
-                    <Link href={"/"}>
+                    <Link href={"/contact"}>
                         {t('nav.button.contact')}
                     </Link>
                 </div>
